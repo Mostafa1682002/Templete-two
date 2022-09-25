@@ -1058,6 +1058,12 @@ body {
     background-color: var(--main-color);
 }
 
+.pricing .container .dis {
+    text-transform: capitalize;
+    font-size: 20px;
+    text-align: center;
+}
+
 .pricing .container>a {
     display: block;
     text-decoration: none;
@@ -1066,6 +1072,12 @@ body {
     background-color: var(--main-color);
     padding: 15px 30px;
     margin: 20px auto;
+}
+
+@media (max-width: 768px) {
+    .pricing .container .dis {
+        font-size: 16px;
+    }
 }
 
 
